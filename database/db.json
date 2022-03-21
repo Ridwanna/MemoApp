@@ -1,0 +1,22 @@
+{
+  "activities": [
+    {
+      "title": "My first activity",
+      "body": "Functional components are basic JavaScript functions. These are typically arrow functions but can also be created with the regular function keyword. Sometimes referred to as “dumb” or “stateless” components as they simply accept data and display them in some form; that is they are mainly responsible for rendering UI",
+      "dateCreated": "3/18/2022, 11:21:15 AM",
+      "id": 1
+    },
+    {
+      "title": "My fav activity",
+      "body": "One of the things that convinced me to use React were functional components. The “olde way” of doing components is with class components. And they can keep state per class. State is like props, but private and only controlled by the component.",
+      "dateCreated": "3/18/2022, 11:21:15 AM",
+      "id": 2
+    },
+    {
+      "title": "newest activity",
+      "body": " Notice the use of %PUBLIC_URL% in the tags above.\n      It will be replaced with the URL of the `public` folder during the build.\n      Only files inside the `public` folder can be referenced from the HTML.\n\n      Unlike \"/favicon.ico\" or \"favicon.ico\", \"%PUBLIC_URL%/favicon.ico\" will\n      work correctly both with client-side routing and a non-root public URL.\n      Learn how to configure a non-root public URL by running `npm run build`.",
+      "dateCreated": "3/18/2022, 12:38:58 PM",
+      "id": 10
+    }
+  ]
+}
