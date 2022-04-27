@@ -31,7 +31,7 @@ const ActivityDetails = () => {
                     <p>{activity['dateCreated']}</p>
                     <div>{ activity.body}</div>
                     <button onClick={handleDelete}>Delete Activity</button>
-                    <button><Link to=""> Edit Activity </Link></button>
+                    <button><Link to="/editActivity"> Edit Activity </Link></button>
                 </article>
             )}
         </div>

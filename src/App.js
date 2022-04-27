@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import AddActivity from './AddActivity';
 import ActivityDetails from './ActivityDetails';
 import NotFound from './404';
-import EditActivity from './EditActivity';
 
 function App() {
   return (
@@ -25,10 +24,6 @@ function App() {
             <Route path="/activities/:id">
               <ActivityDetails />
             </Route>
-
-            {/* <Route path="/activities/:id">
-              <EditActivity />
-            </Route> */}
 
             <Route path="*">
               <NotFound />

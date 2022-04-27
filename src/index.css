@@ -109,10 +109,15 @@ header p {
 .activity-preview a{
   text-decoration: none;
 }
-
-.activity-preview p {
+.activity-preview p:first-child{
+ text-align: justify;
+ font-size: 14px;
+ 
+}
+.activity-preview p:last-child {
   font-style: italic;
-  font-size: 14px;
+  margin-top: 10px;
+  font-size: 12px;
 }
 
 /* activity details */

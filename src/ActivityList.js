@@ -8,6 +8,7 @@ const ActivityList = ({activities, title}) => {
                 <div className="activity-preview" key={activity.id}>
                     <Link to={`/activities/${activity.id}`}>
                         <h2>{activity.title}</h2>
+                        <p>{ activity.body.slice(0, 120)}.....</p>
                         <p>Date Created: {activity['dateCreated']}</p>
                     </Link>
                 </div>
