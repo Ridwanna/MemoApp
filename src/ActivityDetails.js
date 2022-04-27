@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { useParams, useHistory } from "react-router-dom";
 import useFetch from "./useFetch";
-import EditActivity from "./EditActivity";
 
 
 const ActivityDetails = () => {
